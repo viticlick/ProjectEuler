@@ -9,14 +9,10 @@ package eu.viticlick.projecteuler.problem1;
 public class Problem1 {
 
     public static void main(String[] args) {
-<<<<<<< HEAD
         if( args.length > 0 ){
             int value = Integer.parseInt(args[0]);
             System.out.println(result(value));
         }
-=======
-
->>>>>>> 4cf6eb8599550f9e3569c93af8f8899b5c6345a2
     }
 
     /**

@@ -21,9 +21,4 @@ public class Problem1Test {
         
         assertThat(result, is(expected));
     }
-    
-<<<<<<< HEAD
-=======
-    
->>>>>>> 4cf6eb8599550f9e3569c93af8f8899b5c6345a2
 }
