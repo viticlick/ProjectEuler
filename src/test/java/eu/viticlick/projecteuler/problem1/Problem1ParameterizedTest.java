@@ -11,12 +11,12 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-public class Problem1ParametizerTest {
+public class Problem1ParameterizedTest {
 
     private int naturalNumber;
     private long expected;
     
-    public Problem1ParametizerTest(int naturalNumber, long expected) {
+    public Problem1ParameterizedTest(int naturalNumber, long expected) {
         super();
         this.naturalNumber = naturalNumber;
         this.expected = expected;

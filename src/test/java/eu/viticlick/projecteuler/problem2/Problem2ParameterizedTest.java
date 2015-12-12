@@ -11,12 +11,12 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-public class Problem2ParametizerTest {
+public class Problem2ParameterizedTest {
 
     private int maxIndex;
     private long expected;
     
-    public Problem2ParametizerTest(int maxIndex, long expected) {
+    public Problem2ParameterizedTest(int maxIndex, long expected) {
         super();
         this.maxIndex = maxIndex;
         this.expected = expected;
