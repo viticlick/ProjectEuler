@@ -23,9 +23,9 @@ public class Problem4ParameterizedTest {
     
     // TODO: complete this test
     @Parameters(name = "{index} Problem4 result({0}) = {1}")
-    public Iterable<Object[]> data(){
+    public static Iterable<Object[]> data(){
         return Arrays.asList(new Object[][]{
-            { 2 , 9009 }
+            { (short) 2 , 9009 }
         });
     }
     
