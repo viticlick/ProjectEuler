@@ -7,9 +7,11 @@ import org.junit.Test;
 
 public class Problem1Test {
 
+	private Problem1 problem = new Problem1();
+	
     @Test(expected = IllegalArgumentException.class)
     public void testResultWhenNotNaturalNumberThrowIllegalArgumentException() {
-        Problem1.result(-1);
+        problem.result(-1);
     }
 
     @Test
@@ -17,7 +19,7 @@ public class Problem1Test {
         long expected = 23L;
         int naturalNumber = 10;
        
-        long result = Problem1.result(naturalNumber);
+        long result = problem.result(naturalNumber);
         
         assertThat(result, is(expected));
     }
