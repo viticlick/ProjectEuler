@@ -13,7 +13,7 @@ public class Problem6Test {
 		Problem6 problem = new Problem6();
 		
 		assertThat(problem.resolve(10) , is(expected));
-		
+			
 	}
 	
 }
