@@ -2,7 +2,6 @@ package eu.viticlick.projecteuler.problem1;
 
 import eu.viticlick.projecteuler.problem1.strategy.LinearStrategy;
 import eu.viticlick.projecteuler.problem1.strategy.StrategyProblem1;
-import eu.viticlick.projecteuler.problem1.strategy.StreamStrategy;
 
 /**
  *

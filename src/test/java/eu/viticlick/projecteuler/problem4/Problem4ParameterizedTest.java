@@ -21,7 +21,6 @@ public class Problem4ParameterizedTest {
         this.expected = expected;
     }
     
-    // TODO: complete this test
     @Parameters(name = "{index} Problem4 result({0}) = {1}")
     public static Iterable<Object[]> data(){
         return Arrays.asList(new Object[][]{
